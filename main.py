@@ -71,4 +71,4 @@ c3CourseCredit = float(c3CourseCredit)
 
 gpa = (c1GradePoint * c1CourseCredit + c2GradePoint * c2CourseCredit + c3GradePoint * c3CourseCredit) / (c1CourseCredit + c2CourseCredit + c3CourseCredit) 
 
-print (f"Your GPA is {gpa}")
+print (f"Your GPA is: {gpa}")
