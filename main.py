@@ -40,7 +40,7 @@ elif(c2LetterGrade == "D"):
 	c2GradePoint = 1.0
 else:
 	c2GradePoint = 0.0
-print (f"Grade point for course 1 is: {c2GradePoint}")
+print (f"Grade point for course 2 is: {c2GradePoint}")
 c3LetterGrade = input("Enter your course 3 letter grade: ")
 c3CourseCredit = input("Enter your course 3 credit: ")
 
@@ -62,12 +62,12 @@ elif(c3LetterGrade == "D"):
 	c3GradePoint = 1.0
 else:
 	c3GradePoint = 0.0
-print (f"Grade point for course 1 is: {c3GradePoint}")
+print (f"Grade point for course 3 is: {c3GradePoint}")
 
 c1CourseCredit = float(c1CourseCredit)
 c2CourseCredit = float(c2CourseCredit)
 c3CourseCredit = float(c3CourseCredit)
-
+  
 
 gpa = (c1GradePoint * c1CourseCredit + c2GradePoint * c2CourseCredit + c3GradePoint * c3CourseCredit) / (c1CourseCredit + c2CourseCredit + c3CourseCredit) 
 
